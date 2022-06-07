@@ -31,6 +31,6 @@ test("array", () => {
 
 test("throw when id is non negative", () => {
     expect(() => getUser(-1)).toThrow();
-    expect(() => getUser(-1)).toThrow("Invalid user Id");
+    expect(() => getUser(-1)).toThrow("Invalid user ID");
 })
 
