@@ -52,7 +52,7 @@ test("fetch a user (promise)", () => {
 });
 
 // async/await를 사용하는 비동기환경에서 코드 테스트
-test("fetch a user async/await", async () => {
+test.only("fetch a user async/await", async () => {
   const user = await fetchUser2(3);
   expect(user).toEqual({
     id: 3,
